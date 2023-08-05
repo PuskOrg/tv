@@ -33109,6 +33109,10 @@ de tu lista de partidas anteriores.`,
             href: "https://shop.jackboxgames.com",
             target: "_blank",
             onClick: e[5] || (e[5] = u => t.onLinkClick("merch"))
+        }, Ve(t.$t("НАШ САМЫЙ ЛУЧШИЙ НАИКРУТЕЙШЕЙШИЙ ДИСКОРД СЕРВЕР")), 1)]), be("li", null, [be("a", {
+            href: "https://discord.gg/9EMf8xWPjf",
+            target: "_blank",
+            onClick: e[5] || (e[5] = u => t.onLinkClick("merch"))
         }, Ve(t.$t("MENU.MERCH")), 1)]), be("li", null, [be("a", {
             onKeyup: e[6] || (e[6] = ka((...u) => t.onPastGamesClick && t.onPastGamesClick(...u), ["enter"])),
             onClick: e[7] || (e[7] = bn((...u) => t.onPastGamesClick && t.onPastGamesClick(...u), ["prevent"]))
