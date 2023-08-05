@@ -20686,13 +20686,13 @@ var bae = X$((loe, vI) => {
                 WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ПЕРЕПОДКЛЮЧЕНО",
+                SUBTEXT: "Веселись на полную!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "СОЕДИНЕНИЕ ПОРВАНО",
+                    SUBTEXT: "ПОпытка переводключения ({attempt} из 5)"
                 },
                 GAME: {
                     TEXT: "GAME CONNECTION INTERRUPTED",
@@ -31415,28 +31415,28 @@ ${e}`
             FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         Xre = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
+            NAME: "НИК",
+            NAME_PLACEHOLDER: "НАПИШИ СВОЙ НИК",
+            PASSWORD_PLACEHOLDER: "ВВЕДИ 5-ТИ ЧИСЛОВОЙ КОД",
             PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            PASSWORD_REQUIRED_BODY: "Напишите пожалуйста пароль или зайдите за зрителя",
+            PASSWORD_JOIN_AS_PLAYER: "Зайти за игрока",
+            PASSWORD_JOIN_AS_AUDIENCE: "Зайти за зрителя",
+            ROOM_CODE: "КОД КОМНАТЫ",
+            ROOM_CODE_PLACEHOLDER: "НАПИШИ 4-БУКВЕНЫЙ КОД"
         },
         Jre = "Link to Jackbox Games Homepage",
         Qre = {
             APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            DARK: "тёмный",
+            HELP: "НАШ САЙТ",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
+            LIGHT: "светлый",
+            LOGOUT: "ВЫЙТИ",
+            MERCH: "МЕРЧ",
+            PAST_GAMES: "ИСТОРИЯ ИГР",
             MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            MODERATOR: "МОЖЕРАТОР"
         },
         Zre = {
             CALL_TO_ACTION: {
@@ -31466,21 +31466,21 @@ from your past games list.`,
             }
         },
         rne = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Игра заполнена",
+            GAME_STARTED: "Игра уже началась",
+            ROOM_NOT_FOUND: "Комната не найдена"
         },
         nne = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "ИГРА ЗАПОЛНЕНА",
+            GAME_STARTED: "ИГРА УЖЕ НАЧАЛАСЬ",
+            JOIN_AUDIENCE: "ПОДКЛЮЧИТСЯ К ЗРИТЕЛЯМ",
+            RECONNECT: "ПЕРЕПОДКЛЮЧИТСЯ",
+            TWITCH_LOGIN: "ЗАРЕГЕСТРИРОВАТЬСЯ В TWITCH"
         },
         ine = {
-            CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
+            CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Правилами использования[/tos]"
         },
         sne = {
             BRANCH: Yre,
